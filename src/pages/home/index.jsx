@@ -5,8 +5,6 @@ import { getList, add, deleteData, updateData } from '@/action/home'
 import ModalForm from '@@/ModalForm'
 import './style.less'
 
-
-
 function Home (props) {
   const [id, setId] = useState('')
   const [visible, setVisible] = useState(false)
