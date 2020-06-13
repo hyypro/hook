@@ -37,12 +37,12 @@ function Home (props) {
     setEditData([])
   }
 
-  const deletes = (record) => {
+  const deletes = record => {
     deleteData(record)
     getList()
   }
 
-  const update = (record) => {
+  const update = record => {
     setEditData(record)
     setId(record.id)
     setVisible(true)
