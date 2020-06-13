@@ -18,7 +18,7 @@ export function add (opt) {
 export function deleteData (opt) {
   return {
     type: FETCH_HOME_DELETE,
-    payload: homedelete({id: opt})
+    payload: homedelete({ id: opt })
   }
 }
 

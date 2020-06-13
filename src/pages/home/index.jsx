@@ -52,7 +52,6 @@ function Home (props) {
     {
       title: 'Name',
       dataIndex: 'name',
-      render: record => <a>{record}</a>,
     },
     {
       title: 'Age',
