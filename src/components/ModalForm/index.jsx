@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Modal, Form, Input, Button } from 'antd'
 
-function ModalForm (props) {
+export default function ModalForm (props) {
   const [form] = Form.useForm()
   
   const { visible, id, onOk, onCancel, editData } = props
@@ -44,7 +44,6 @@ function ModalForm (props) {
           >
             <Input />
           </Form.Item>
-
           <Form.Item
             label="Age"
             name="age"
@@ -71,4 +70,3 @@ function ModalForm (props) {
   )
 }
 
-export default ModalForm
